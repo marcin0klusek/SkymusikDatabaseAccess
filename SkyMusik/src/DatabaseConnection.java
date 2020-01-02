@@ -12,7 +12,7 @@ public class DatabaseConnection {
 	private static Statement myStmt;
 	private String ip = "den1.mssql1.gear.host";
 	private String db = "mysimpleeventdb";
-	private String un = "mysimpleeventdb";
+	private String un = "";
 	private String pass = "";
 
 	public void establishConnection() {
