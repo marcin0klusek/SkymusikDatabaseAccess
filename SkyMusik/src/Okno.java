@@ -165,7 +165,6 @@ public class Okno extends JFrame {
 				FileReader fileReader = new FileReader(file.getAbsolutePath());
 				BufferedReader bufferedReader = new BufferedReader(fileReader);
 				String textLine = bufferedReader.readLine();
-				// String[] eventsProperties = textLine.split(",");
 				textLine = bufferedReader.readLine();
 
 				do {
