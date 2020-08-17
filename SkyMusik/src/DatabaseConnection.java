@@ -10,8 +10,8 @@ public class DatabaseConnection {
 
 	private static Connection myCon;
 	private static Statement myStmt;
-	private String ip = "den1.mssql1.gear.host";
-	private String db = "mysimpleeventdb";
+	private String ip = "";
+	private String db = "";
 	private String un = "";
 	private String pass = "";
 
